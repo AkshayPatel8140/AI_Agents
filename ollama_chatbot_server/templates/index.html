@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Chatbot with Voice</title>
+    <script src="/static/script.js"></script>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+        }
+
+        #chat {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            white-space: pre-line;
+        }
+
+        input,
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>🧠 AI Chatbot (Voice + Text)</h2>
+    <div id="chat"></div>
+    <input type="text" id="userInput" placeholder="Type here..." size="50" />
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="startVoiceInput()">🎤 Speak</button>
+</body>
+
+</html>
