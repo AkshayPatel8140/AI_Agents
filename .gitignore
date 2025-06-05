@@ -13,6 +13,8 @@
 
 .vscode
 
+API_KEYS.tsx
+
 # misc
 .DS_Store
 .env.local
