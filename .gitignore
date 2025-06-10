@@ -22,6 +22,11 @@ API_KEYS.tsx
 .env.test.local
 .env.production.local
 
+*/env
+.env
+
+*/__pycache__
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
